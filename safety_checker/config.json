@@ -1,6 +1,6 @@
 {
-  "_commit_hash": "4bb648a606ef040e7685bde262611766a5fdd67b",
-  "_name_or_path": "CompVis/stable-diffusion-safety-checker",
+  "_commit_hash": null,
+  "_name_or_path": "/home/patrick/stable-diffusion-v1-5/safety_checker",
   "architectures": [
     "StableDiffusionSafetyChecker"
   ],
@@ -88,7 +88,7 @@
     "num_attention_heads": 12,
     "num_hidden_layers": 12
   },
-  "torch_dtype": "float32",
+  "torch_dtype": "float16",
   "transformers_version": null,
   "vision_config": {
     "_name_or_path": "",
