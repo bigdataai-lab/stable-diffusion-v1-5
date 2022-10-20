@@ -31,6 +31,7 @@ You can use this both with the [🧨Diffusers library](https://github.com/huggin
 ### Diffusers
 ```py
 from diffusers import StableDiffusionPipeline
+import torch
 
 model_id = "runwayml/stable-diffusion-v1-5"
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, revision="fp16")
