@@ -1,5 +1,5 @@
 {
-  "_class_name": "PNDMScheduler",
+  "_class_name": "FlaxPNDMScheduler",
   "_diffusers_version": "0.6.0",
   "beta_end": 0.012,
   "beta_schedule": "scaled_linear",

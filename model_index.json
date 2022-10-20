@@ -1,5 +1,5 @@
 {
-  "_class_name": "StableDiffusionPipeline",
+  "_class_name": "FlaxStableDiffusionPipeline",
   "_diffusers_version": "0.6.0",
   "feature_extractor": [
     "transformers",
@@ -7,15 +7,15 @@
   ],
   "safety_checker": [
     "stable_diffusion",
-    "StableDiffusionSafetyChecker"
+    "FlaxStableDiffusionSafetyChecker"
   ],
   "scheduler": [
     "diffusers",
-    "PNDMScheduler"
+    "FlaxPNDMScheduler"
   ],
   "text_encoder": [
     "transformers",
-    "CLIPTextModel"
+    "FlaxCLIPTextModel"
   ],
   "tokenizer": [
     "transformers",
@@ -23,10 +23,10 @@
   ],
   "unet": [
     "diffusers",
-    "UNet2DConditionModel"
+    "FlaxUNet2DConditionModel"
   ],
   "vae": [
     "diffusers",
-    "AutoencoderKL"
+    "FlaxAutoencoderKL"
   ]
 }

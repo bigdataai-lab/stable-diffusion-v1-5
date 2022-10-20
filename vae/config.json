@@ -1,5 +1,5 @@
 {
-  "_class_name": "AutoencoderKL",
+  "_class_name": "FlaxAutoencoderKL",
   "_diffusers_version": "0.6.0",
   "act_fn": "silu",
   "block_out_channels": [
