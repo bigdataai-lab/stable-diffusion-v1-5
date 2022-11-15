@@ -4,7 +4,7 @@ tags:
 - stable-diffusion
 - stable-diffusion-diffusers
 - text-to-image
-inference: false
+inference: true
 extra_gated_prompt: |-
   This model is open access and available to all, with a CreativeML OpenRAIL-M license further specifying rights and usage.
   The CreativeML OpenRAIL License specifies: 
